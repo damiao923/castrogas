@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Castro Gás - Revendedora de Água e Gás</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        .navbar {
+            background-color: #0056b3;
+        }
+
+        .navbar-brand,
+        .nav-link {
+            color: #fff !important;
+        }
+
+        .banner {
+            background: url('castrogas.jpeg') no-repeat center center;
+            background-size: cover; /* Mantém a imagem coberta sem distorção */
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        .banner h1 {
+            font-size: 3rem;
+        }
+
+        .card-img-top {
+            object-fit: cover; /* Garante que a imagem preencha o container */
+            width: 100%; /* Certifica-se de que a imagem usa toda a largura disponível */
+        }
+
+        /* Ajuste específico para a imagem do botijão */
+        .img-botijao {
+            height: 200px; /* Ajusta a altura da imagem do botijão */
+            object-fit: cover; /* Mantém a imagem coberta sem distorção */
+        }
+
+        .card {
+            margin-bottom: 1.5rem; /* Adiciona espaçamento entre as cartas */
+        }
+
+        footer {
+            background-color: #0056b3;
+            color: white;
+        }
+
+        .social-links {
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .social-links a {
+            font-size: 2rem;
+            color: #0056b3;
+            margin: 0 1rem;
+        }
+
+        .social-links a:hover {
+            color: #003d80;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Castro Gás</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#produtos">Produtos</a></li>
+                <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Nós</a></li>
+                <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+                <li class="nav-item"><a class="nav-link" href="#social">Nossos Contatos</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Banner Principal -->
+    <section class="banner text-center">
+        <h1>Castro Gás - Água e Gás com Rapidez e Segurança</h1>
+    </section>
+
+    <!-- Seção de Produtos -->
+    <section id="produtos" class="container mt-5">
+        <h2 class="mb-4 text-center">Nossos Produtos</h2>
+        <div class="row">
+            <!-- Produto 1 -->
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x150?text=Água+Mineral" class="card-img-top" alt="Água Mineral" class="card-img-top img-botijao" alt="Botijão de Gás">
+                    <div class="card-body">
+                        <h5 class="card-title">Botijão de Gás</h5>
+                        <p class="card-text">Gás de cozinha (GLP) disponível em botijões de 13kg. Garantia de qualidade e segurança.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Produto 2 -->
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x150?text=Água+Mineral" class="card-img-top" alt="Água Mineral">
+                    <div class="card-body">
+                        <h5 class="card-title">Água Mineral</h5>
+                        <p class="card-text">Água mineral natural em garrafões de 20L. Entrega rápida e com qualidade garantida.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre Nós -->
+    <section id="sobre" class="container mt-5">
+        <h2 class="mb-4 text-center">Sobre Nós</h2>
+        <p>A Castro Gás é uma empresa especializada na revenda de gás de cozinha (GLP) e água mineral. Com anos de experiência
+            no mercado, garantimos aos nossos clientes produtos de qualidade e um atendimento ágil e seguro.</p>
+    </section>
+
+    <!-- Seção de Serviços -->
+    <section id="servicos" class="container mt-5">
+        <h2 class="mb-4 text-center">Nossos Serviços</h2>
+        <div class="row">
+            <!-- Serviço 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x150?text=Entrega+Rápida" class="card-img-top" alt="Entrega Rápida">
+                    <div class="card-body">
+                        <h5 class="card-title">Entrega Rápida</h5>
+                        <p class="card-text">Receba seu pedido de gás e água em minutos. Serviços rápidos e eficientes.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Serviço 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x150?text=Troca+de+Botijões" class="card-img-top" alt="Troca de Botijões">
+                    <div class="card-body">
+                        <h5 class="card-title">Troca de Botijões</h5>
+                        <p class="card-text">Fazemos a troca de botijões vazios por cheios no conforto do seu lar.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Serviço 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://via.placeholder.com/300x150?text=Instalação+Segura" class="card-img-top" alt="Instalação Segura">
+                    <div class="card-body">
+                        <h5 class="card-title">Instalação Segura</h5>
+                        <p class="card-text">Equipe treinada para realizar a instalação correta e segura de botijões de gás.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Contato -->
+    <section id="social" class="container mt-5 mb-5">
+        <h2 class="mb-4 text-center">Nossos Contatos</h2>
+        <div class="social-links">
+            <a href="https://wa.me/1234567890" target="_blank" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/castrogas" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="text-center py-3">
+        <p>© 2024 Castro Gás. Todos os direitos reservados. | <a href="#" class="text-white">Política de Privacidade</a></p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Font Awesome JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+</body>
+
+</html>
